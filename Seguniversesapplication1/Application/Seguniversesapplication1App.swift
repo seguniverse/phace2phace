@@ -10,7 +10,7 @@ struct Seguniversesapplication1App: App {
 
     var body: some Scene {
         WindowGroup {
-            ArtboardOneView()
+            SplashView()
         }
     }
 }

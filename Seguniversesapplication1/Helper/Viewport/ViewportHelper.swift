@@ -10,9 +10,9 @@ func getRelativeHeight(_ size: CGFloat) -> CGFloat {
 }
 
 func getRelativeWidth(_ size: CGFloat) -> CGFloat {
-    return size * (CGFloat(UIScreen.main.bounds.width) / 430.0)
+    return size * (CGFloat(UIScreen.main.bounds.width) / 800.0)
 }
 
 func getRelativeFontSize(_ size: CGFloat) -> CGFloat {
-    return size * (CGFloat(UIScreen.main.bounds.width) / 430.0)
+    return size * (CGFloat(UIScreen.main.bounds.width) / 800.0)
 }
